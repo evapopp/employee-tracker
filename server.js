@@ -1,9 +1,6 @@
 const mysql = require('mysql2');
 const inquirer = require('inquirer');
 const cTable = require('console.table');
-const { title, allowedNodeEnvironmentFlags } = require('process');
-const { listenerCount } = require('events');
-
 
 const db = mysql.createConnection(
     {
