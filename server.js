@@ -48,7 +48,9 @@ function init(){
             viewDepartments();
         } else if (initalQuestions === 'Add Department'){
             addDepartment();
-        };
+        } else if (initalQuestions === 'Quit'){
+            quitApp();
+        }
     })
 }
 
@@ -174,6 +176,9 @@ function updateEmployee (){
     
 }
 
-
+function quitApp (){
+    console.log('Thanks for your inquiries!')
+    process.exit();
+}
 
 init()
