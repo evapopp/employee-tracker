@@ -7,7 +7,8 @@ A command-line application which runs content management system (CMS) to manage 
 * SQL, Inquirer, Node.js, Javascript
 
 ## Links
-* Repo: 
-* Video Demo: 
+* Repo: https://github.com/evapopp/employee-tracker
+* Video Demo: https://watch.screencastify.com/v/EQbTGJHP9M2RU4WkTxN2
 
 ## Page Preview
+![script preview](./utils/screenshot.png)
